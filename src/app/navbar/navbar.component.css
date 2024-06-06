@@ -1,0 +1,37 @@
+.navbar-brand {
+  color: var(--Yellow-Primary, #f0d459) !important;
+  font-family: "Gotham", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btn-warning {
+  background-color: #ffd700; /* color amarillo para el botón */
+  border-color: #ffd700;
+  color: black;
+}
+
+.nav-link {
+  color: #fff;
+  font-family: "Gotham", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106.5%; /* 15.975px */
+}
+.demo {
+  display: flex;
+  padding: 8px 53px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 40px;
+  background: #f0d459;
+  color: #000;
+  font-family: "Gotham", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106.5%; /* 15.975px */
+}
