@@ -1,0 +1,35 @@
+/* .company-img {
+  border-radius: 24px;
+  display: flex;
+} */
+body {
+  background-color: #3d3d3d;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.bg-dark {
+  background-color: #333 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.p-4 {
+  padding: 1.5rem !important;
+}
+
+.rounded {
+  border-radius: 0.25rem !important;
+}
+
+.company-container {
+  background-color: #474242;
+}

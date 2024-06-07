@@ -1,0 +1,47 @@
+.container {
+  max-width: 1200px;
+}
+
+.embed-responsive-16by9 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.embed-responsive-16by9 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 10%;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff; /* Color del texto */
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff; /* Color del texto */
+}
+
+.row {
+  background-color: #474242; /* Color de fondo */
+  border-radius: 10px; /* Borde redondeado */
+  padding: 20px; /* Padding */
+}
+#data-l {
+  background-color: #333333 !important;
+}
+@media (min-width: 768px) {
+  .embed-responsive-16by9 {
+    margin-bottom: 0;
+  }
+}

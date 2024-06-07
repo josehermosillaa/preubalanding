@@ -34,13 +34,12 @@ html,
 body {
   font-family: "Gotham", sans-serif;
   height: 100%;
-}
-
-html,
-body {
-  height: 100%;
-}
-body {
   margin: 0;
+}
+app-root {
+  display: flex;
+  flex-direction: column;
   font-family: "Gotham", sans-serif;
+
+  height: 100%;
 }
