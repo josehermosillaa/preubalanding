@@ -1,6 +1,28 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030; /* Asegura que la navbar esté por encima de otros elementos */
+}
+
+/* Asegúrate de añadir suficiente padding-top al body para evitar superposición con el contenido */
+body {
+  padding-top: 70px; /* Ajusta este valor según la altura de tu navbar */
+}
+Aquí e .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+body {
+  padding-top: 70px;
+}
+
 .navbar-brand {
   color: var(--Yellow-Primary, #f0d459) !important;
-  font-family: "Gotham", sans-serif;
+  font-family: Gotham, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 500;

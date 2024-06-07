@@ -8,6 +8,8 @@ import { HeroComponent } from './hero/hero.component';
 import { InformationComponent } from './information/information.component';
 import { WorkflowComponent } from './workflow/workflow.component';
 import { CompanyComponent } from './company/company.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { CompanyComponent } from './company/company.component';
     HeroComponent,
     InformationComponent,
     WorkflowComponent,
-    CompanyComponent
+    CompanyComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
