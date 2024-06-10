@@ -81,11 +81,6 @@ body {
   letter-spacing: 0.001px;
 }
 
-.mission-text ul {
-  list-style-type: none;
-  padding: 0;
-}
-
 .mission-text ul li {
   opacity: 0.7;
   color: #fff;
@@ -94,6 +89,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 106.5%;
+  margin-top: 20px;
 }
 
 @media (min-width: 768px) {
@@ -151,6 +147,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 106.5%; /* 21.3px */
+  opacity: 0.7;
 }
 
 .empowering {
@@ -162,4 +159,15 @@ body {
   font-weight: 400;
   line-height: 106.5%;
   text-decoration-line: underline;
+}
+
+.mission-text p {
+  opacity: 0.7;
+  color: #fff;
+  font-family: Gotham;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106.5%;
+  margin-top: 20px;
 }
