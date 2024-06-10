@@ -1,31 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
   font-family: Gotham;
-  src: url("/public/fonts/Gotham-Font/Gotham-Light.otf");
+  src: url("/fonts/Gotham-Font/Gotham-Light.otf");
   font-weight: 200;
 }
 
 @font-face {
   font-family: Gotham;
-  src: url("/public/fonts/Gotham-Font/GothamBook.ttf") format("truetype");
+  src: url("/fonts/Gotham-Font/GothamBook.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: Gotham;
-  src: url("/public/fonts/Gotham-Font/GothamMedium.ttf") format("truetype");
+  src: url("/fonts/Gotham-Font/GothamMedium.ttf") format("truetype");
   font-weight: 500;
 }
 
 @font-face {
   font-family: Gotham;
-  src: url("/public/fonts/Gotham-Font/Gotham-Bold.otf");
+  src: url("/fonts/Gotham-Font/Gotham-Bold.otf");
   font-weight: 600;
 }
 
 @font-face {
   font-family: Gotham;
-  src: url("/public/fonts/Gotham-Font/Gotham-Black.otf");
+  src: url("/fonts/Gotham-Font/Gotham-Black.otf");
   font-weight: 700;
 }
 

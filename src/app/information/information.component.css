@@ -79,7 +79,42 @@ p {
 .mission-text h2 {
   color: #f0d459;
 }
+.v-regulations {
+  color: #fff;
+  text-align: right;
+  font-family: Gotham;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94.5%; /* 60.48px */
+}
+.v-text {
+  color: #fff;
 
+  text-align: right;
+  font-family: Gotham;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106.5%; /* 21.3px */
+}
+
+.explore {
+  color: #fff;
+  font-family: Gotham;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94.5%; /* 60.48px */
+}
+.explore-text {
+  color: #fff;
+  font-family: Gotham;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106.5%; /* 21.3px */
+}
 @media (max-width: 768px) {
   .mission-content {
     flex-direction: column;

@@ -68,7 +68,17 @@ body {
 }
 
 .mission-text h2 {
-  color: #f0d459;
+  opacity: 0.9;
+  width: 166px;
+  flex-shrink: 0;
+
+  color: #fff;
+  font-family: Gotham;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43.509px; /* 120.859% */
+  letter-spacing: 0.001px;
 }
 
 .mission-text ul {
@@ -77,7 +87,13 @@ body {
 }
 
 .mission-text ul li {
-  margin-bottom: 10px;
+  opacity: 0.7;
+  color: #fff;
+  font-family: Gotham;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106.5%;
 }
 
 @media (min-width: 768px) {
@@ -96,4 +112,54 @@ body {
   font-weight: 400;
   line-height: 200px;
   word-wrap: break-word;
+}
+
+.company-style {
+  color: #fff;
+  font-family: Gotham;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 94.5%; /* 37.8px */
+}
+
+.company-text {
+  color: #fff;
+  text-align: center;
+  font-family: Gotham, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 110% */
+  letter-spacing: 0.5px;
+}
+
+.revolutionize {
+  color: #f0d459;
+  font-family: Gotham, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+}
+
+.zoneless {
+  color: #f0d459;
+  font-family: Gotham;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 106.5%; /* 21.3px */
+}
+
+.empowering {
+  opacity: 0.7;
+  color: #fff;
+  font-family: Gotham;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 106.5%;
+  text-decoration-line: underline;
 }
